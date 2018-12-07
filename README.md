@@ -31,15 +31,15 @@ Sample code for fetching your data to the front end.
 <h4 style="color: yellow">Vue JS</h4>
 WPRestful.vue
 <code>
-&lt;template&gt;
-&lt;div&gt;
-&lt;ul&gt;
-&lt;li v-for="(data, index) in wp_restful" :key="index"&gt;
-{{ e.post_title }}
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/template&gt;
+&lt;template&gt;<br>
+  &lt;div&gt;<br>
+    &lt;ul&gt;<br>
+      &lt;li v-for="(data, index) in wp_restful" :key="index"&gt;<br>
+        {{ e.post_title }}<br>
+      &lt;/li&gt;<br>
+    &lt;/ul&gt;<br>
+  &lt;/div&gt;<br>
+&lt;/template&gt;<br>
 </code>
 <pre>
 <script>
