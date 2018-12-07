@@ -59,12 +59,12 @@ export default {
 }
 </script>
 </pre>
-
+<hr>
 <h4 style="color: yellow">jQuery</h4>
 <pre>
 Coming Soon.
 </pre>
-
+<hr>
 <h4 style="color: yellow">React JS</h4>
 <pre>
 Coming Soon.
