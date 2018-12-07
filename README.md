@@ -31,13 +31,13 @@ Sample code for fetching your data to the front end.
 <h4 style="color: yellow">Vue JS</h4>
 <pre>
 <template>
-    <div>
-        <ul>
-            <li v-for="(data, index) in wp_restful" :key="index">
-                {{ e.post_title }}
-            </li>
-        </ul>
-    </div>
+<div>
+    <ul>
+        <li v-for="(data, index) in wp_restful" :key="index">
+            {{ e.post_title }}
+        </li>
+    </ul>
+</div>
 </template>
 <script>
 /* You can use axios for vue js */
