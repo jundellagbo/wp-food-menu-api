@@ -31,6 +31,7 @@ Sample code for fetching your data to the front end.
 <h4 style="color: yellow">Vue JS</h4>
 WPRestful.vue
 <code>
+  #h1 hello
 &lt;template&gt;<br>
   &lt;div&gt;<br>
     &lt;ul&gt;<br>
