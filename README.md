@@ -30,25 +30,41 @@ Sample code for fetching your data to the front end.
 
 <h4 style="color: yellow">Vue JS</h4>
 <pre>
+<template>
+    <div>
+        <ul>
+            <li v-for="(data, index) in wp_restful" :key="index">
+                {{ e.post_title }}
+            </li>
+        </ul>
+    </div>
+</template>
+<script>
 /* You can use axios for vue js */
 import axios from 'axios'
 export default {
-  created: function() {
-    axios.get('http://localhost/wordpress/wp-json/wp-restful/v1/api?post_type=food-menu',
-    {
-        headers: {
-            'Content-Type': 'application/json'
+    data: function() {
+        return {
+            wp_restful: []
         }
-    })
-    .then((response) => {
-      // set your data here
-      console.log(response.data.data);
-    })
-    .catch((error) => {
-      console.log("HTTP Request Error : " + error);
-    })
-  }
+    },
+    created: function() {
+        axios.get('http://localhost/wordpress/wp-json/wp-restful/v1/api?post_type=food-menu',
+        {
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then((response) => {
+        // set your data here
+            this.wp-restful = response.data.data;
+        })
+        .catch((error) => {
+            console.log("HTTP Request Error : " + error);
+        })
+    }
 }
+</script>
 </pre>
 
 <h4 style="color: yellow">jQuery</h4>
