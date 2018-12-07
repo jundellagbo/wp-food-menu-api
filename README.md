@@ -1,6 +1,9 @@
 # Wp-RESTful-API
 
 Retrieve your posts data using API Key.
+[![NPM Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Downloads Stats][npm-downloads]][npm-url]
 
 <h4>Request GET parameters.</h4>
 <table>
