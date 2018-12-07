@@ -48,7 +48,12 @@ export default {
     }
   },
   created: function() {
-    axios.get('https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost')
+    axios.get('http://localhost/wordpress/wp-json/wp-restful/v1/api?post_type=food-menu',
+    {
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
     .then((response) => {
       console.log(response);
     })
