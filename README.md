@@ -2,11 +2,29 @@
 
 Retrieve your posts data using API Key.
 
-Request GET parameters.
+<h4>Request GET parameters.</h4>
 
 page - paginate your data.
 post_type - type of posts to retrieve
 per page - <strong>test</strong>
+<table>
+  <thead>
+    <tr>
+      <td>Parameters</td>
+      <td>Description</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>post_type</td>
+        <td>determine which type of post you want to retrieve to api <code>https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost</code></td>
+        </tr>
+    <tr>
+      <td><code>page</code></td>
+      <td>display data per page <code>https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost&page=1</code></td>
+      </tr>
+    </tbody>
+ </table>
 
 Example:
 http://localhost/wordpress/wp-json/wp-restful/v1/api?post_type=food-menu
