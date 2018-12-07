@@ -25,3 +25,6 @@ Retrieve your posts data using API Key.
       </tr>
     </tbody>
  </table>
+
+
+Test your API using POSTMAN https://www.getpostman.com/
