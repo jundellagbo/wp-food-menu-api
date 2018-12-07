@@ -38,7 +38,25 @@ Sample code for fetching your data to the front end.
 
 <h4 style="color: yellow">Vue JS</h4>
 <pre>
-/* Hello World */
+/* You can use axios for vue js */
+import axios from 'axios'
+export default {
+  data: function() {
+    return {
+      loading: false,
+      wp_restful: []
+    }
+  },
+  created: function() {
+    axios.get('https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost')
+    .then((response) => {
+      console.log(response);
+    })
+    .catch((error) => {
+      console.log("HTTP Request Error : " + error);
+    })
+  }
+}
 </pre>
 
 <h4 style="color: yellow">jQuery</h4>
