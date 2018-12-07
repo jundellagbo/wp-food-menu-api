@@ -19,10 +19,8 @@ Retrieve your posts data using API Key.
     <tbody>
       
       <tr>
-        <td><code>post_type</code></td>
-        <td>determine which type of post you want to retrieve to api 
-            <code>https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost</code>
-        </td>
+        <td>post_type</td>
+        <td>determine which type of post you want to retrieve to api https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost</td>
         </tr>
       
   
