@@ -6,7 +6,7 @@ Retrieve your posts data using API Key.
 <table>
   <thead>
     <tr>
-      <td>Parameters</td>
+      <td>Parameter</td>
       <td>Description</td>
       </tr>
     </thead>
