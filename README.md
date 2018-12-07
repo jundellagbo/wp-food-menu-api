@@ -1,2 +1,3 @@
 # Wp-RESTful-API
-asdas
+
+Retrieve your posts data using API Key.
