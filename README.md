@@ -28,3 +28,11 @@ Retrieve your posts data using API Key.
 
 
 Test your API using POSTMAN https://www.getpostman.com/
+
+Sample code for fetching your data to the front end.
+
+<h4 style="color: yellow">Javascript</h4>
+<pre>
+/* Hello World */
+</pre>
+
