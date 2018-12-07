@@ -16,7 +16,7 @@ per page - <strong>test</strong>
     </thead>
     <tbody>
       <tr>
-        <td>post_type</td>
+        <td><code>post_type</code></td>
         <td>determine which type of post you want to retrieve to api <code>https://yoursite/wp-json/wp-restful/v1/api?post_type=mypost</code></td>
         </tr>
     <tr>
