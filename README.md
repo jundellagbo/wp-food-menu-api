@@ -49,7 +49,7 @@ export default {
         })
         .then((response) => {
         // set your data here
-            this.wp-restful = response.data.data;
+            this.wp_restful = response.data.data;
         })
         .catch((error) => {
             console.log("HTTP Request Error : " + error);
