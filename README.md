@@ -36,3 +36,17 @@ Sample code for fetching your data to the front end.
 /* Hello World */
 </pre>
 
+<h4 style="color: yellow">Vue JS</h4>
+<pre>
+/* Hello World */
+</pre>
+
+<h4 style="color: yellow">jQuery</h4>
+<pre>
+/* Hello World */
+</pre>
+
+<h4 style="color: yellow">React JS</h4>
+<pre>
+/* Hello World */
+</pre>
