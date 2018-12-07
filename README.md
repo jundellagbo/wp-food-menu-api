@@ -29,8 +29,8 @@ Sample code for fetching your data to the front end.
 <pre>
 Coming Soon.
 </pre>
-
-<h4 style="color: #4fc08d">Vue JS</h4>
+<hr>
+<h4>Vue JS</h4>
 <pre>
 <script>
 /* You can use axios for vue js */
