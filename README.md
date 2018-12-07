@@ -25,6 +25,3 @@ Retrieve your posts data using API Key.
       </tr>
     </tbody>
  </table>
-
-Example:
-http://localhost/wordpress/wp-json/wp-restful/v1/api?post_type=food-menu
