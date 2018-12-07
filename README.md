@@ -30,7 +30,7 @@ Sample code for fetching your data to the front end.
 Coming Soon.
 </pre>
 
-<h4 style="color: yellow">Vue JS</h4>
+<h4 style="color: #4fc08d">Vue JS</h4>
 <pre>
 <script>
 /* You can use axios for vue js */
