@@ -4,7 +4,6 @@ Retrieve your posts data using API Key.
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)
 
-<h4>Request GET parameters.</h4>
 <table>
   <thead>
     <tr>
