@@ -27,7 +27,7 @@ Sample code for fetching your data to the front end.
 
 <h4 style="color: yellow">Javascript</h4>
 <pre>
-/* Hello World */
+Coming Soon.
 </pre>
 
 <h4 style="color: yellow">Vue JS</h4>
@@ -62,10 +62,10 @@ export default {
 
 <h4 style="color: yellow">jQuery</h4>
 <pre>
-/* Hello World */
+Coming Soon.
 </pre>
 
 <h4 style="color: yellow">React JS</h4>
 <pre>
-/* Hello World */
+Coming Soon.
 </pre>
