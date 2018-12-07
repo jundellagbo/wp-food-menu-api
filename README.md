@@ -30,7 +30,7 @@ Sample code for fetching your data to the front end.
 
 <h4 style="color: yellow">Vue JS</h4>
 WPRestful.vue
-<pre>
+<code>
 <template>
 <div>
     <ul>
@@ -40,7 +40,7 @@ WPRestful.vue
     </ul>
 </div>
 </template>
-</pre>
+</code>
 <pre>
 <script>
 /* You can use axios for vue js */
