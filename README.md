@@ -33,11 +33,11 @@ WPRestful.vue
 <code>
 <template>
 <div>
-    <ul>
-        <li v-for="(data, index) in wp_restful" :key="index">
-            {{ e.post_title }}
-        </li>
-    </ul>
+<ul>
+<li v-for="(data, index) in wp_restful" :key="index">
+{{ e.post_title }}
+</li>
+</ul>
 </div>
 </template>
 </code>
