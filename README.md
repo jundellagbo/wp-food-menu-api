@@ -43,7 +43,6 @@ import axios from 'axios'
 export default {
   data: function() {
     return {
-      loading: false,
       wp_restful: []
     }
   },
@@ -55,7 +54,7 @@ export default {
         }
     })
     .then((response) => {
-      console.log(response);
+      this.wp_restful = response.data.data;
     })
     .catch((error) => {
       console.log("HTTP Request Error : " + error);
