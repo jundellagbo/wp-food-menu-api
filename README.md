@@ -41,11 +41,6 @@ Sample code for fetching your data to the front end.
 /* You can use axios for vue js */
 import axios from 'axios'
 export default {
-  data: function() {
-    return {
-      wp_restful: []
-    }
-  },
   created: function() {
     axios.get('http://localhost/wordpress/wp-json/wp-restful/v1/api?post_type=food-menu',
     {
@@ -54,7 +49,8 @@ export default {
         }
     })
     .then((response) => {
-      this.wp_restful = response.data.data;
+      // set your data here
+      console.log(response.data.data);
     })
     .catch((error) => {
       console.log("HTTP Request Error : " + error);
