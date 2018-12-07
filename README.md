@@ -1,4 +1,5 @@
-# Wp-RESTful-API
+# Wp-RESTful-API Plugin
+- WordPress Plugin
 
 Retrieve your posts data using API Key.
 
