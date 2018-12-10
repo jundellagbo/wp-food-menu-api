@@ -33,8 +33,9 @@ GET Request Parameters
  </table>
  
  <h4>Response</h4>
+ <p>
  <code>data</code> - getting your food menu data.
- <br>
+ </p>
  <table>
 <thead>
   <tr>
