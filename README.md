@@ -65,5 +65,3 @@ GET Request Parameters
 
 
 Test your API using POSTMAN https://www.getpostman.com/
-
-Sample code for fetching your data to the front end.
