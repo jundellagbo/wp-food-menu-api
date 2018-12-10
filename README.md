@@ -31,6 +31,35 @@ GET Request Parameters
         </tr>
     </tbody>
  </table>
+ 
+ <h4>Response</h4>
+ <code>data</code> - getting your food menu data.
+ <table>
+<thead>
+  <tr>
+    <td>meta</td>
+    <td>description</td>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>page</code></td>
+      <td>display data on specific page.<td>
+    </tr>
+    <tr>
+      <td><code>per_page</code></td>
+      <td>number of display data per page.<td>
+    </tr>
+    <tr>
+      <td><code>paginate</code></td>
+      <td>total number of page, perform a loop to display your pagination.<td>
+    </tr>
+    <tr>
+      <td><code>total</code></td>
+      <td>count all data.<td>
+    </tr>
+    </tbody>
+</table>
 
 
 Test your API using POSTMAN https://www.getpostman.com/
