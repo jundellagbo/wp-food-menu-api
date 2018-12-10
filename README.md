@@ -1,7 +1,9 @@
-# Wp-RESTful-API Plugin
+# WP Food Menu API Plugin
 - WordPress Plugin
+- Integrated with TLP Food Menu plugin https://wordpress.org/plugins/tlp-food-menu/
 
-Retrieve your posts data using API Key.
+Retrieve food menu through API.
+
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)
 
@@ -38,7 +40,7 @@ import axios from 'axios'
 export default {
     data: function() {
         return {
-            wp_restful: []
+            wp_food_menu_api: []
         }
     },
     created: function() {
@@ -50,7 +52,7 @@ export default {
         })
         .then((response) => {
         // set your data here
-            this.wp_restful = response.data.data;
+            this.wp_food_menu_api = response.data.data;
         })
         .catch((error) => {
             console.log("HTTP Request Error : " + error);
