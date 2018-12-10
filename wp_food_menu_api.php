@@ -4,7 +4,7 @@
 */
 /*
 Plugin Name:  WP Food Menu API
-Plugin URI:   https://www.facebook.com/jundell.ictned.ph
+Plugin URI:   https://github.com/jundellagbo/wp-food-menu-api
 Description:  Retrieve your post's data with API.
 Version:      1.0
 Author:       Jundell Agbo
@@ -29,19 +29,17 @@ class WpRestful
     }
 
     public function wp_restful_api_register() {
-        register_rest_route( 'wp-restful/v1', '/api', array(
+        register_rest_route( 'wp-food-menu/v1', '/api', array(
             'methods'   => 'GET',
             'callback'  => array( $this, 'wp_restful_retrieve' )
         ) );
     }
 
     public function wp_restful_retrieve( $request ) {
-
         $posts_data = array();
-        $post_type = $request->get_param( 'post_type' );
+        $post_type = 'food-menu';
         $paged = $request->get_param('page') != null ? (int)$request->get_param('page') : 1;
-        $per_page = $request->get_param('perpage');
-
+        $per_page = $request->get_param('perpage') != null ? (int)$request->get_param('perpage') : 5;
         $posts = get_posts( array(
                 'post_type' => array( $post_type ),
                 'paged' => $paged,
@@ -60,9 +58,7 @@ class WpRestful
                 'description' => $post->post_content
             );
         }
-
-        $total = count( get_posts( array( 'post_type' => array( $post_type ) ) ) );
-
+		$total = count(get_posts( array( 'post_type' => 'food-menu', 'numberposts' => -1 ) ) ) ;
         return [ 
             'data' => $posts_data,
             'meta' => [
