@@ -1,6 +1,6 @@
 # WP Food Menu API Plugin
 - WordPress Plugin
-- Integrated with TLP Food Menu plugin https://wordpress.org/plugins/tlp-food-menu/
+- Getting TLP Food Menu plugin API https://wordpress.org/plugins/tlp-food-menu/
 
 Retrieve food menu through API.
 
