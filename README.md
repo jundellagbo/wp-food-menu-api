@@ -27,23 +27,14 @@ Request ```GET```
 | ------------- |:---------------------------------------------------------------------------------------------------|----------|
 | ```id```      | get the selected product by id, get all your products first then determine which id should be use. | required |
 
+---
 
-<hr>
-<h3>Category</h3>
-<p>
-    <i>Retrieve all product categories.</i>
-</p>
-<p>
-    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/categories/api</code>
-</p>
-<hr>
-
-<p>
-    <i>Retrieve Individual Category including Products related to the selected category.</i>
-</p>
-<p>
-    <i>api: </i> <code><?php echo get_home_url(); ?>/wp-json/wp-food-menu/v1/product/category/api</code> <button api="<?php echo get_home_url(); ?>/wp-json/wp-food-menu/v1/product/category/api" id="copy_clipboard" class="btn-s">copy</button>
-</p>
+### Category
+Retrieve all product categories.
+API ```https://yoursite/wp-json/wp-food-menu/v1/categories/api```
+Retrieve Individual Category including Products related to the selected category.
+---
+API ```https://yoursite/wp-json/wp-food-menu/v1/product/category/api```
 <table>
     <thead>
         <tr>
