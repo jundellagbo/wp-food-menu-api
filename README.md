@@ -37,4 +37,29 @@
 </table>
 
 
+<p>
+    <i>Get Individual Product.</i>
+</p>
+<p>
+    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/product/api</code><br>
+    <i>request:</i> <code>GET</code>
+</p>
+<table>
+    <thead>
+        <tr>
+            <td>params</td>
+            <td>description</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>id</code></td>
+            <td>get the selected product by id, get all your products first then determine which id should be use.</td>
+            <td>required</td>
+        </tr>
+    </tbody>
+</table>
+
+
 Test your API using POSTMAN https://www.getpostman.com/
