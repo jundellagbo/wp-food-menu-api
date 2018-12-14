@@ -12,9 +12,13 @@
 Get All your products.
 API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
 Request ```GET```
-| params | description | |
+| Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
-|a|b|c
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 <table>
     <thead>
         <tr>
