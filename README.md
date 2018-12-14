@@ -67,4 +67,8 @@ If you are willing to help me to continue to create a free plugins., you can giv
 
 ### Send Feedback, Suggesstions or Questions
 
-[![messenger](https://static1.squarespace.com/static/57040d852eeb819dde62074b/t/5aab65968a922d9bbb107ac7/1521182438852/facebook+messenger)](https://m.me/jundell.ictned.ph)
+Share your ideas so we can build it.
+Want to customize your themes or plugin?
+I am willing to help for a cup of coffee :)
+
+[![messenger](https://img.shields.io/badge/Send%20to-Messenger-blue.svg)](https://m.me/jundell.ictned.ph)
