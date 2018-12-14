@@ -67,8 +67,8 @@ If you are willing to help me to continue to create a free plugins., you can giv
 
 ### Send Feedback, Suggesstions or Questions
 
-Share your ideas so we can build it.
-Want to customize your themes or plugin?
-I am willing to help for a cup of coffee :)
+- Share your ideas so we can build it.
+- Want to customize your themes or plugin?
+- I am willing to help for a cup of coffee :)
 
 [![messenger](https://img.shields.io/badge/Send%20to-Messenger-blue.svg)](https://m.me/jundell.ictned.ph)
