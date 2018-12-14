@@ -63,3 +63,46 @@
         </tr>
     </tbody>
 </table>
+
+<hr>
+<h3>Category</h3>
+<p>
+    <i>Retrieve all product categories.</i>
+</p>
+<p>
+    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/categories/api</code>
+</p>
+<hr>
+
+<p>
+    <i>Retrieve Individual Category including Products related to the selected category.</i>
+</p>
+<p>
+    <i>api: </i> <code><?php echo get_home_url(); ?>/wp-json/wp-food-menu/v1/product/category/api</code> <button api="<?php echo get_home_url(); ?>/wp-json/wp-food-menu/v1/product/category/api" id="copy_clipboard" class="btn-s">copy</button>
+</p>
+<table>
+    <thead>
+        <tr>
+            <td>params</td>
+            <td>description</td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><code>cat_id</code></td>
+            <td>category id, select all category first then choose which id to be use.</td>
+            <td>required</td>
+        </tr>
+        <tr>
+            <td><code>page</code></td>
+            <td>use to display products by page under this category.</td>
+            <td>required</td>
+        </tr>
+        <tr>
+            <td><code>perpage</code></td>
+            <td>paginate products under this category.</td>
+            <td>required</td>
+        </tr>
+    </tbody>
+</table>
