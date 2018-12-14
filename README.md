@@ -3,19 +3,15 @@
 - Getting TLP Food Menu plugin API https://wordpress.org/plugins/tlp-food-menu/
 - Test your API using <a href="https://www.getpostman.com/" target="_blank">POSTMAN</a>
 
-<h3>Integrate Food Menu into your Mobile App for just API :)</h3>
+### Integrate Food Menu into your Mobile App for just API :)
 
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jundellagbo)
 
-<h3>Products</h3>
-<p>
-    <i>Get All your products.</i>
-</p>
-<p>
-    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/products/api</code><br>
-    <i>request:</i> <code>GET</code>
-</p>
+### Products
+Get All your products.
+API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
+Request ```GET```
 <table>
     <thead>
         <tr>
