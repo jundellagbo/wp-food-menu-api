@@ -11,7 +11,7 @@
     <i>Get All your products.</i>
 </p>
 <p>
-    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/products/api</code>
+    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/products/api</code><br>
     <i>request:</i> <code>GET</code>
 </p>
 <table>
