@@ -49,33 +49,15 @@ API ```https://yoursite/wp-json/wp-food-menu/v1/product/category/api```
 
 Request ```GET```
 
-<table>
-    <thead>
-        <tr>
-            <td>params</td>
-            <td>description</td>
-            <td></td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><code>cat_id</code></td>
-            <td>category id, select all category first then choose which id to be use.</td>
-            <td>required</td>
-        </tr>
-        <tr>
-            <td><code>page</code></td>
-            <td>use to display products by page under this category.</td>
-            <td>required</td>
-        </tr>
-        <tr>
-            <td><code>perpage</code></td>
-            <td>paginate products under this category.</td>
-            <td>required</td>
-        </tr>
-    </tbody>
-</table>
+| Params        | Description                                                                    | Default Value           |          |
+| ------------- |:-------------------------------------------------------------------------------|:------------------------| --------:|
+| ```cat_id```  | category id, select all category first then choose which id to be use.         | no default value        | required |
+| ```page```    | use to display products by page under this category.                           | 1                       | optional |
+| ```perpage``` | paginate products under this category.                                         | total number of product | optional |
+
 
 ### Donations
+
 If this project help you reduce time to develop, you can give me a cup of coffee :) 
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/jundellagbo)
