@@ -10,7 +10,9 @@
 
 ### Products
 Get All your products.
+
 API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
+
 Request ```GET```
 
 | Params        | Description                | Default Value           |          |
@@ -19,8 +21,10 @@ Request ```GET```
 | ```perpage``` | paginate list of products. | total number of product | optional |
 
 ---
-Get Individual Product.</i>
+Get Individual Product.
+
 API ```https://yoursite/wp-json/wp-food-menu/v1/product/api```
+
 Request ```GET```
 
 | Params        | Description                                                                                        |          |
@@ -32,12 +36,19 @@ Request ```GET```
 ### Category
 
 Retrieve all product categories.
+
 API ```https://yoursite/wp-json/wp-food-menu/v1/categories/api```
+
+Request ```GET```
 
 ---
 
 Retrieve Individual Category including Products related to the selected category.
+
 API ```https://yoursite/wp-json/wp-food-menu/v1/product/category/api```
+
+Request ```GET```
+
 <table>
     <thead>
         <tr>
