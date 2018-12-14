@@ -1,6 +1,7 @@
 # WP Food Menu API Plugin
 - Getting API of your products and categories.
 - Getting TLP Food Menu plugin API https://wordpress.org/plugins/tlp-food-menu/
+- Test your API using <a href="https://www.getpostman.com/" target="_blank">POSTMAN</a>
 
 <h3>Integrate Food Menu into your Mobile App for just API :)</h3>
 
@@ -62,6 +63,3 @@
         </tr>
     </tbody>
 </table>
-
-
-Test your API using POSTMAN https://www.getpostman.com/
