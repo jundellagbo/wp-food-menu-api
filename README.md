@@ -1,5 +1,5 @@
 # WP Food Menu API Plugin
-- WordPress Plugin
+- Getting API of your products and categories.
 - Getting TLP Food Menu plugin API https://wordpress.org/plugins/tlp-food-menu/
 
 <h3>Integrate Food Menu into your Mobile App for just API :)</h3>
