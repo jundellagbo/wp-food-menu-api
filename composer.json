@@ -1,0 +1,19 @@
+{
+    "name": "cf/wp-food-menu-api",
+    "description": "Retrieve food menu through API.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Jundell",
+            "email": "jundellagbo10dd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "./inc"
+        }
+    }
+}

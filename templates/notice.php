@@ -1,0 +1,3 @@
+<div class="update-nag notice" style="display: block; margin-bottom: 10px;">
+    <p>WP Food Menu API Plugin Requires <a href="https://wordpress.org/plugins/tlp-food-menu/" target="_blank">TLP Food Menu Plugin</a> please <a href="https://wordpress.org/plugins/tlp-food-menu/" target="_blank">install</a> or <a href="<?php echo get_home_url(); ?>/wp-admin/plugins.php">activate</a> the plugin.</p>
+</div>

@@ -1,0 +1,53 @@
+.wpfm .row:after {
+    clear: both;
+    display: block;
+    content: '';
+}
+.wpfm .col {
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.wpfm .main {
+    width: 70%;
+}
+.wpfm .output {
+    width: 30%;
+    padding-left: 20px;
+}
+.wpfm .box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.wpfm table {
+    border-collapse: collapse;
+}
+.wpfm table thead tr td {
+    font-weight: 500;
+}
+.wpfm table tr td {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.wpfm .text-center {
+    text-align: center;
+}
+.wpfm .text-light {
+    color: #fff;
+}
+.wpfm a, .wpfm a:hover { text-decoration: none!important; }
+.wpfm a:focus { box-shadow: unset; }
+.wpfm .btn {
+    color: #fff; padding: 5px 15px; border-radius: 3px;
+}
+.wpfm .btn-s {
+    border: 0;
+    background: #0084ff;
+    padding: 3px 10px;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
