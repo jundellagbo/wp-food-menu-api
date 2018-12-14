@@ -12,6 +12,7 @@
 Get All your products.
 API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
 Request ```GET```
+
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
