@@ -30,10 +30,13 @@ Request ```GET```
 ---
 
 ### Category
+
 Retrieve all product categories.
 API ```https://yoursite/wp-json/wp-food-menu/v1/categories/api```
-Retrieve Individual Category including Products related to the selected category.
+
 ---
+
+Retrieve Individual Category including Products related to the selected category.
 API ```https://yoursite/wp-json/wp-food-menu/v1/product/category/api```
 <table>
     <thead>
