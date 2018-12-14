@@ -12,6 +12,9 @@
 Get All your products.
 API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
 Request ```GET```
+| params | description | |
+| ------------- |:-------------:| -----:|
+|a|b|c
 <table>
     <thead>
         <tr>
