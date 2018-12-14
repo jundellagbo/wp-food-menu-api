@@ -36,6 +36,7 @@
     </tbody>
 </table>
 
+<hr>
 
 <p>
     <i>Get Individual Product.</i>
