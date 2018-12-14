@@ -55,6 +55,7 @@ Request ```GET```
 | ```page```    | use to display products by page under this category.                           | 1                       | optional |
 | ```perpage``` | paginate products under this category.                                         | total number of product | optional |
 
+---
 
 ### Donations
 
