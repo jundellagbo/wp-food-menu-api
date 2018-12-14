@@ -13,11 +13,10 @@ Get All your products.
 API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
 Request ```GET```
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Params        | Description                                                   |          |
+| ------------- |:-------------------------------------------------------------:| --------:|
+| ```page```    | display product by page. default(1)                           | optional |
+| ```perpage``` | paginate list of products. default( total number of product ) | optional |
 
 
 <table>
