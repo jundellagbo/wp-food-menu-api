@@ -4,12 +4,12 @@
 */
 /*
 Plugin Name:  WP Food Menu API
-Plugin URI:   https://github.com/jundellagbo/wp-food-menu-api/archive/master.zip
+Plugin URI:   https://wordpress.org/plugins/wp-food-menu-api/
 Description:  WP Food Menu API requires Food Menu plugin, it will retrieve all your product including categories using api. This is being used for mobile application development to get the products data and integrate to the front-end.
 Version:      1.5
 Author:       Jundell Agbo
-Author URI:   https://www.facebook.com/jundell.ictned.ph
-License:      GPL2
+Author URI:   http://cordovafreelance.uphero.com/
+License:      GPLv2 or later
 License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  wporg
 Domain Path:  /languages
