@@ -18,54 +18,15 @@ Request ```GET```
 | ```page```    | display product by page.   | 1                       | optional |
 | ```perpage``` | paginate list of products. | total number of product | optional |
 
+---
+Get Individual Product.</i>
+API ```https://yoursite/wp-json/wp-food-menu/v1/product/api```
+Request ```GET```
 
-<table>
-    <thead>
-        <tr>
-            <td>params</td>
-            <td>description</td>
-            <td></td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><code>page</code></td>
-            <td>display product by page.</td>
-            <td>optional</td>
-        </tr>
-        <tr>
-            <td><code>perpage</code></td>
-            <td>paginate list of products.</td>
-            <td>optional</td>
-        </tr>
-    </tbody>
-</table>
+| Params        | Description                                                                                        |          |
+| ------------- |:---------------------------------------------------------------------------------------------------|----------|
+| ```id```      | get the selected product by id, get all your products first then determine which id should be use. | required |
 
-<hr>
-
-<p>
-    <i>Get Individual Product.</i>
-</p>
-<p>
-    <i>api:</i> <code>https://yoursite/wp-json/wp-food-menu/v1/product/api</code><br>
-    <i>request:</i> <code>GET</code>
-</p>
-<table>
-    <thead>
-        <tr>
-            <td>params</td>
-            <td>description</td>
-            <td></td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><code>id</code></td>
-            <td>get the selected product by id, get all your products first then determine which id should be use.</td>
-            <td>required</td>
-        </tr>
-    </tbody>
-</table>
 
 <hr>
 <h3>Category</h3>
