@@ -6,7 +6,7 @@
 <h3>Integrate Food Menu into your Mobile App for just API :)</h3>
 
 
-[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger)
+[![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://travis-ci.org/badges/badgerbadgerbadger) [![Coverage Status](http://img.shields.io/coveralls/badges/badgerbadgerbadger.svg?style=flat-square)](https://coveralls.io/r/badges/badgerbadgerbadger) [![Donate](https://www.paypal.me/jundellagbo)
 
 <h3>Products</h3>
 <p>
@@ -107,5 +107,6 @@
     </tbody>
 </table>
 
-<hr>
-<h3>Donations</h3>
+### Donations
+If this project help you reduce time to develop, you can give me a cup of coffee :) 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/jundellagbo)
