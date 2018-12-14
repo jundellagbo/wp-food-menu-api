@@ -14,7 +14,7 @@ API ``` https://yoursite/wp-json/wp-food-menu/v1/products/api```
 Request ```GET```
 
 | Params        | Description                                                   |          |
-| ------------- |:-------------------------------------------------------------:| --------:|
+| ------------- |:--------------------------------------------------------------| --------:|
 | ```page```    | display product by page. default(1)                           | optional |
 | ```perpage``` | paginate list of products. default( total number of product ) | optional |
 
