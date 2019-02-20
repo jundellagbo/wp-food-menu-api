@@ -1,4 +1,6 @@
 # WP Food Menu API Plugin
+https://wordpress.org/plugins/wp-food-menu-api/
+
 - Getting API of your products and categories.
 - Getting TLP Food Menu plugin API https://wordpress.org/plugins/tlp-food-menu/
 - Test your API using <a href="https://www.getpostman.com/" target="_blank">POSTMAN</a>
