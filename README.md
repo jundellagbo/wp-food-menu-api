@@ -5,7 +5,7 @@ https://wordpress.org/plugins/wp-food-menu-api/
 - Getting TLP Food Menu plugin API https://wordpress.org/plugins/tlp-food-menu/
 - Test your API using <a href="https://www.getpostman.com/" target="_blank">POSTMAN</a>
 
-### Integrate Food Menu with RestFUL API
+### Integrate Food Menu with RESTful API
 
 
 [![Build Status](http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square)](https://wordpress.org/plugins/wp-food-menu-api/) [![Coverage Status](https://img.shields.io/badge/Go%20to-Wordpress%20Forum-blue.svg)](https://wordpress.org/support/plugin/wp-food-menu-api) [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/jundellagbo)
