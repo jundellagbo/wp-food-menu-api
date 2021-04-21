@@ -57,15 +57,6 @@ Request ```GET```
 | ```page```    | use to display products by page under this category.                           | 1                       | optional |
 | ```perpage``` | paginate products under this category.                                         | total number of product | optional |
 
----
-
-### Donations
-
-If you are willing to help me to continue to create a free plugins., you can give me a cup of coffee :) 
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/jundellagbo)
-
----
 
 ### Send Feedback, Suggesstions or Questions
 
